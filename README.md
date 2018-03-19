@@ -4,15 +4,23 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Need to Follow these step(tested on ubuntu).
+bundle install
+rails db:setup
+then 
 1) Install ffmpegthumbnailer
 
 sudo apt-get update
+
 sudo apt-get install ffmpegthumbnailer
 
 2) Add carrierwave and carrierwave-video-thumbnaile gems
+
 gem install carrierwave
+
 gem 'carrierwave-video-thumbnaile
 
+
+upload mp4 files... Happy coding
 
 Things you may want to cover:
 
