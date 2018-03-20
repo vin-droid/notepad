@@ -1,43 +1,26 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Need to Follow these step(tested on ubuntu).
-bundle install
-rails db:setup
-then 
-1) Install ffmpegthumbnailer
-
-sudo apt-get update
-
-sudo apt-get install ffmpegthumbnailer
-
-2) Add carrierwave and carrierwave-video-thumbnaile gems
-
-gem install carrierwave
-
-gem 'carrierwave-video-thumbnaile
-
-
-upload mp4 files... Happy coding
-
-Things you may want to cover:
-
 * Ruby version
+
+  ruby 2.4.1p111
 
 * System dependencies
 
-* Configuration
+  Install ffmpegthumbnailer
 
-* Database creation
+  sudo apt-get update
 
-* Database initialization
+  sudo apt-get install ffmpegthumbnailer
+ 
+ * Add gem 
+  gem install carrierwave
 
-* How to run the test suite
+  gem 'carrierwave-video-thumbnaile
 
-* Services (job queues, cache servers, search engines, etc.)
+* Database 
 
-* Deployment instructions
+  rails db:setup  
 
-* ...
+upload mp4 files... Happy coding
+
+
+
